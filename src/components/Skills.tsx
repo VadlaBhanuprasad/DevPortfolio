@@ -60,9 +60,11 @@ const Skills = () => {
         { name: "RESTful APIs", level: 80, description: "CRUD Operations, HTTP Methods" },
         { name: "Authentication", level: 70, description: "JWT, Sessions, Passport.js" },
         { name: "API Integration", level: 75, description: "3rd-party APIs, Axios/Fetch" },
-        { name: "Python", level: 65, description: "Problem Solving, Patterns, FastAPI" }
+        { name: "FastAPI", level: 70, description: "High-performance APIs, Async, Pydantic" },
+        { name: "Python", level: 65, description: "Problem Solving, Patterns" }
       ]
-    },
+    }
+    ,
     {
       title: "Databases",
       skills: [
