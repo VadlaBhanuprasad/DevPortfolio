@@ -7,7 +7,7 @@ const Projects = () => {
   const projects = [
     {
       title: "Warehouse Management System",
-      description: "A React-based front-end application designed for efficient warehouse operations. Built dynamic UI components for inventory tracking, order management, and real-time updates.",
+      description: "🏭 Streamline warehouse ops with real-time inventory tracking & order management. Built for speed, efficiency, and seamless updates.",
       image: "https://www.amsc-usa.com/wp-content/uploads/2023/06/warehouse-efficiency.jpg",
       technologies: ["React", "TypeScript", "JavaScript", "BootStrap", "JWT", "AntDesign"],
       github: "https://github.com/VadlaBhanuprasad",
@@ -16,8 +16,8 @@ const Projects = () => {
       status: "Completed"
     },
     {
-      title: "Song Brite - A Modern Music Streaming Application",
-      description: "Song Brite is a sleek, Spotify-inspired music streaming application built using Next.js, TypeScript, and Styled Components. It delivers a smooth, responsive user experience for discovering, playing, and managing music.",
+      title: "Song Brite - Music Streaming App",
+      description: "🎵 Spotify-inspired music player with sleek UI & smooth playback. Discover, play, and manage your favorite tracks effortlessly.",
       image: "/assets/songBrite.png",
       technologies: ["ReactJs", "TypeScript", "Redux", "AntDesign", "CSS3", "API's", "JWT"],
       github: "https://github.com/VadlaBhanuprasad",
@@ -27,7 +27,7 @@ const Projects = () => {
     },
     {
       title: "HRM Dashboard",
-      description: "An HR Management dashboard to handle candidate onboarding, employee verification, document uploads, and role-based access with progress tracking and responsive UI.",
+      description: "👥 All-in-one HR platform for onboarding, verification & documents. Role-based access with intuitive progress tracking.",
       image: "/assets/HRMDashboard.png",
       technologies: ["React", "TypeScript", "AntDesign", "JWT", "REST APIs", "Responsive Design"],
       github: "https://github.com/VadlaBhanuprasad",
@@ -37,7 +37,7 @@ const Projects = () => {
     },
     {
       title: "Fleet Management System",
-      description: "A fleet management platform to track vehicles, drivers, routes, and maintenance with real-time updates, dashboards, and role-based access control.",
+      description: "🚛 Track vehicles, drivers & routes in real-time. Smart dashboards with maintenance alerts & role-based control.",
       image: "/assets/fleetmanagement.png",
       technologies: ["React", "Node.js", "TypeScript", "JWT", "APIs", "Dashboards"],
       github: "https://github.com/VadlaBhanuprasad",
@@ -46,8 +46,18 @@ const Projects = () => {
       status: "Completed"
     },
     {
-      title: "FAS Trading & Establishment – Company Profile",
-      description: "Created a professional, high-level company profile and value proposition for a Saudi industrial services firm, highlighting certified manpower, heavy equipment rental, and integrated contracting services with a strong focus on safety, quality, and client satisfaction.",
+      title: "Vanavasam – The Wildlife",
+      description: "🦁 Immersive wildlife booking with cinematic storytelling. Where adventure meets comfort in stunning design.",
+      image: "/assets/Vanavasam.png",
+      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      github: "https://github.com/VadlaBhanuprasad/vanavasam-the-wildlife",
+      live: "https://vanavasam-the-wildlife.netlify.app/",
+      featured: false,
+      status: "Completed"
+    },
+    {
+      title: "FAS Trading & Establishment",
+      description: "🏗️ Premium company profile for Saudi industrial services. Showcasing manpower, equipment & quality-focused contracting.",
       image: "/assets/fas-tradingest.png",
       technologies: ["React", "TypeScript", "Mobile Responsive", "Email Sending"],
       github: "https://github.com/VadlaBhanuprasad/fas-trading-establishment.git",
@@ -56,8 +66,8 @@ const Projects = () => {
       status: "Completed"
     },
     {
-      title: "Spice Garden Restaurant Website",
-      description: "Designed and developed a responsive restaurant website for Spice Garden, showcasing menu, services, and contact details with a clean UI, smooth navigation, and mobile-friendly experience.",
+      title: "Spice Garden Restaurant",
+      description: "🍽️ Elegant restaurant showcase with menu, services & contact. Clean design with smooth mobile-first experience.",
       image: "/assets/SpicyGardenRestuarent.png",
       technologies: ["React", "JavaScript", "CSS3", "Responsive Design", "UI/UX"],
       github: "https://github.com/VadlaBhanuprasad/SpiceGardenRestuarent.git",
@@ -67,8 +77,8 @@ const Projects = () => {
       status: "Completed"
     },
     {
-      title: "NxtTrendz - E-commerce Application",
-      description: "NxtTrendz is an e-commerce application built with React.js, JWT authentication, and CSS. It allows users to browse products by category, add them to the cart, and ensures a smooth and secure shopping experience.",
+      title: "NxtTrendz - E-commerce App",
+      description: "🛒 Modern shopping experience with secure JWT auth. Browse categories, add to cart & checkout seamlessly.",
       image: "/assets/NXTTrendz.png",
       technologies: ["ReactJs", "JavaScript", "API Integration", "CSS3", "JWT Authentication", "Local Storage"],
       github: "https://github.com/VadlaBhanuprasad/nxt-trendz-app",
@@ -78,7 +88,7 @@ const Projects = () => {
     },
     {
       title: "IPL Dashboard",
-      description: "IPL Dashboard is a web app to view participating IPL teams, their match results, and win/loss outcomes between teams. It also provides detailed information about each team.",
+      description: "🏏 Interactive cricket dashboard for IPL teams & stats. View match results, win/loss records & team details.",
       image: "/assets/IPLDashboard.png",
       technologies: ["React", "CSS3", "Responsive Design", "API's"],
       github: "https://github.com/VadlaBhanuprasad/ipl-dashboard",
@@ -113,7 +123,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`group relative bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-2xl overflow-hidden border border-slate-700/50 hover:border-cyan-500/50 transition-all duration-500 transform hover:scale-105 card-hover shadow-2xl scroll-animate ${project.featured ? 'xl:col-span-1 md:col-span-2 xl:row-span-1' : ''}`}
+              className={`group relative flex flex-col bg-gradient-to-br from-slate-800/60 to-slate-900/60 backdrop-blur-xl rounded-2xl overflow-hidden border border-slate-700/50 hover:border-cyan-500/50 transition-all duration-500 transform hover:scale-105 card-hover shadow-2xl scroll-animate ${project.featured ? 'xl:col-span-1 md:col-span-2 xl:row-span-1' : ''}`}
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {project.featured && (
@@ -144,7 +154,7 @@ const Projects = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-cyan-900/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
 
-              <div className="p-4 sm:p-5">
+              <div className="p-4 sm:p-5 flex flex-col flex-grow">
                 {/* <div className="flex items-center gap-1.5 mb-2">
                   <Calendar className="w-4 h-4 text-cyan-400" />
                   <span className="text-cyan-400 text-sm font-medium">{project.date}</span>
@@ -161,7 +171,7 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-1.5 mb-4">
+                <div className="flex flex-wrap gap-1.5 mb-4 flex-grow">
                   {project.technologies.map((tech, techIndex) => (
                     <span
                       key={tech}
@@ -174,7 +184,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex gap-3">
+                <div className="flex gap-3 mt-auto">
                   <a
                     href={project.github}
                     target="_blank"
