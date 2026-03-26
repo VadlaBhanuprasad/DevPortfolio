@@ -63,8 +63,18 @@ const Skills = () => {
         { name: "FastAPI", level: 70, description: "High-performance APIs, Async, Pydantic" },
         { name: "Python", level: 65, description: "Problem Solving, Patterns" }
       ]
-    }
-    ,
+    },
+    {
+      title: "Generative AI",
+      skills: [
+        { name: "OpenAI", level: 85, description: "GPT-4, Embeddings, API Integration, Fine-tuning" },
+        { name: "Hugging Face", level: 80, description: "Transformers, Model Hub, Inference API" },
+        { name: "LangChain", level: 85, description: "Chains, Agents, Memory, Vector Stores" },
+        { name: "RAG", level: 80, description: "Retrieval Augmented Generation, Vector DBs, Context Management" },
+        { name: "LLM Integration", level: 85, description: "Prompt Engineering, Model Selection, API Orchestration" },
+        { name: "AI Chatbots", level: 85, description: "Conversational UI, Streaming, State Management" }
+      ]
+    },
     {
       title: "Databases",
       skills: [
@@ -110,7 +120,7 @@ const Skills = () => {
           </h2>
           <div className="w-20 sm:w-24 h-1 bg-gradient-to-r from-cyan-400 via-blue-500 to-cyan-400 mx-auto mb-3 sm:mb-4 rounded-full animate-glow"></div>
           <p className="text-gray-300 text-sm sm:text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-            Technologies and tools I've mastered during my intensive 1+ years of journey as a React developer, along with the skills I've been trained in.
+            Technologies and tools I've mastered during my intensive 1.5 years of journey as a React developer, along with the skills I've been trained in.
           </p>
         </div>
 

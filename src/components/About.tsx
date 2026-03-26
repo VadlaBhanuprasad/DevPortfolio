@@ -72,7 +72,7 @@ const About = () => {
               </h3>
 
               <p className="text-gray-300 text-xs sm:text-sm md:text-base mb-4 sm:mb-6 leading-relaxed">
-                I am a dedicated Full Stack Developer with 1+ years of professional experience, specializing in React.Js,Next.Js JavaScript, TypeScript, and Node.Js. Currently working at <span className="text-emerald-400 font-semibold">eArbor LLP</span> in Madhapur, Hyderabad since <span className="text-emerald-400 font-semibold">December 2024</span>, I am actively contributing to a critical on-site project, where I play a key role in designing, developing, and optimizing core front-end components and integrating RESTful APIs. My strengths include writing clean, scalable code, building responsive and user-centric interfaces using React, Redux, and TypeScript, and collaborating effectively with cross-functional teams. I’m passionate about creating high-performance web applications, solving real-world business challenges, and continually upgrading my skills in a fast-paced Agile environment.
+                I am a dedicated Full Stack Developer with 1.5 years of professional experience, specializing in React.Js,Next.Js JavaScript, TypeScript, and Node.Js. Currently working at <span className="text-emerald-400 font-semibold">eArbor LLP</span> in Madhapur, Hyderabad since <span className="text-emerald-400 font-semibold">December 2024</span>, I am actively contributing to a critical on-site project, where I play a key role in designing, developing, and optimizing core front-end components and integrating RESTful APIs. My strengths include writing clean, scalable code, building responsive and user-centric interfaces using React, Redux, and TypeScript, and collaborating effectively with cross-functional teams. I’m passionate about creating high-performance web applications, solving real-world business challenges, and continually upgrading my skills in a fast-paced Agile environment.
 
 
               </p>
@@ -183,7 +183,7 @@ const About = () => {
           <div className="bg-gradient-to-r from-slate-800/60 via-slate-900/60 to-slate-800/60 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 shadow-2xl">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 md:gap-6">
               {[
-                { number: '1+', label: 'Years Experience' },
+                { number: '1.5', label: 'Years Experience' },
                 { number: '10+', label: 'Projects Built' },
                 { number: '15+', label: 'Technologies' },
                 { number: '3', label: 'Languages' }

@@ -131,7 +131,7 @@ const Hero = () => {
           <div className="max-w-3xl mx-auto mb-4 sm:mb-6 animate-slide-up-delay">
             <p className="text-sm sm:text-base md:text-lg text-gray-300 mb-2 sm:mb-3 leading-relaxed">
               Professional React developer with{" "}
-              <span className="text-cyan-400 font-semibold">1+ Years</span> of
+              <span className="text-cyan-400 font-semibold">1.5 Years</span> of
               hands-on experience, currently contributing to innovative projects
               at{" "}
               <span className="text-emerald-400 font-semibold">eArbor LLP</span>
@@ -205,7 +205,7 @@ const Hero = () => {
           {/* Quick Stats */}
           <div className="mt-8 sm:mt-10 grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4 max-w-xl mx-auto animate-fade-in-delay-2">
             {[
-              { number: "1+", label: "Years of Experience" },
+              { number: "1.5", label: "Years of Experience" },
               { number: "10+", label: "Projects Built" },
               { number: "15+", label: "Technologies" },
               { number: "3", label: "Languages" },

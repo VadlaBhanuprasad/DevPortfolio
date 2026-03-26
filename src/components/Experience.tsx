@@ -252,7 +252,7 @@ const Experience = () => {
                 </div>
                 <div className="flex justify-between items-center text-xs sm:text-sm">
                   <span className="text-gray-300">Experience</span>
-                  <span className="text-cyan-400 font-semibold">1+ Years</span>
+                  <span className="text-cyan-400 font-semibold">1.5 Years</span>
                 </div>
                 <div className="flex justify-between items-center text-xs sm:text-sm">
                   <span className="text-gray-300">Projects Built</span>

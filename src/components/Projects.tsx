@@ -56,6 +56,17 @@ const Projects = () => {
       status: "Completed"
     },
     {
+      title: "BhanuAI",
+      description: "AI-powered app for Document,Website Analysis and Summarization and acts as real-time ChatGPT",
+      image: "/assets/bhanuAI.png",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Python", "FastAPI", "LLM Models", "Langchain", "RAG", "HuggingFace"],
+      github: "https://github.com/VadlaBhanuprasad/GenAIFrontend",
+      live: "https://bhanuai.netlify.app",
+      featured: false,
+      status: "Completed"
+
+    },
+    {
       title: "FAS Trading & Establishment",
       description: "🏗️ Premium company profile for Saudi industrial services. Showcasing manpower, equipment & quality-focused contracting.",
       image: "/assets/fas-tradingest.png",
