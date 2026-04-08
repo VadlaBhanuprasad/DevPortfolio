@@ -139,32 +139,20 @@ const Skills = () => {
                 </h3>
               </div>
 
-              <div className="space-y-3 sm:space-y-4">
+              <div className="flex flex-wrap gap-3 sm:gap-4">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="group">
-                    <div className="flex justify-between items-center mb-1.5 sm:mb-2">
-                      <div>
-                        <span className="text-white font-semibold text-sm sm:text-base group-hover:text-cyan-400 transition-colors duration-300">
-                          {skill.name}
-                        </span>
-                        <p className="text-gray-400 text-xs mt-1 group-hover:text-gray-300 transition-colors duration-300">
-                          {skill.description}
-                        </p>
-                      </div>
-                      <span className="text-cyan-400 text-xs font-bold bg-cyan-500/20 px-2 py-0.5 sm:px-3 sm:py-1 rounded-full border border-cyan-500/30">
-                        {skill.level}%
+                  <div
+                    key={skillIndex}
+                    className="group flex-1 min-w-[140px] sm:min-w-[160px] bg-slate-800/30 hover:bg-slate-700/50 border border-slate-700/50 hover:border-cyan-500/50 rounded-xl p-3.5 sm:p-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_5px_15px_rgba(34,211,238,0.15)] relative overflow-hidden flex flex-col justify-center"
+                  >
+                    <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    <div className="pl-2">
+                      <span className="text-white font-semibold text-sm sm:text-base group-hover:text-cyan-400 transition-colors duration-300 block mb-1">
+                        {skill.name}
                       </span>
-                    </div>
-                    <div className="w-full bg-slate-700/50 rounded-full h-2 overflow-hidden shadow-inner">
-                      <div
-                        className="h-full bg-gradient-to-r from-cyan-500 via-blue-500 to-cyan-600 rounded-full transition-all duration-1000 ease-out transform origin-left group-hover:scale-105 skill-bar relative"
-                        style={{
-                          width: `${skill.level}%`,
-                          animationDelay: `${(categoryIndex * 0.3) + (skillIndex * 0.1)}s`
-                        }}
-                      >
-                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse"></div>
-                      </div>
+                      <p className="text-gray-400 text-xs group-hover:text-gray-300 transition-colors duration-300 leading-relaxed">
+                        {skill.description}
+                      </p>
                     </div>
                   </div>
                 ))}

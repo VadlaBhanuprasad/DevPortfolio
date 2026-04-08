@@ -51,7 +51,7 @@ const Projects = () => {
       image: "/assets/Vanavasam.png",
       technologies: ["React", "TypeScript", "Tailwind CSS"],
       github: "https://github.com/VadlaBhanuprasad/vanavasam-the-wildlife",
-      live: "https://vanavasam-the-wildlife.netlify.app/",
+      live: "https://vanavasam-the-wildlife.vercel.app/",
       featured: false,
       status: "Completed"
     },
@@ -61,7 +61,7 @@ const Projects = () => {
       image: "/assets/bhanuAI.png",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Python", "FastAPI", "LLM Models", "Langchain", "RAG", "HuggingFace"],
       github: "https://github.com/VadlaBhanuprasad/GenAIFrontend",
-      live: "https://bhanuai.netlify.app",
+      live: "https://bhanuai-gpt.vercel.app/",
       featured: false,
       status: "Completed"
 
@@ -82,8 +82,7 @@ const Projects = () => {
       image: "/assets/SpicyGardenRestuarent.png",
       technologies: ["React", "JavaScript", "CSS3", "Responsive Design", "UI/UX"],
       github: "https://github.com/VadlaBhanuprasad/SpiceGardenRestuarent.git",
-      live: "https://spicegardenarestuarent.netlify.app/",
-      date: "Apr 2025",
+      live: "https://spice-garden-restuarent.vercel.app/",
       featured: false,
       status: "Completed"
     },
