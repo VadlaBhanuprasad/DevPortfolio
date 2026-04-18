@@ -19,7 +19,7 @@ const Projects = () => {
       title: "Song Brite - Music Streaming App",
       description: "🎵 Spotify-inspired music player with sleek UI & smooth playback. Discover, play, and manage your favorite tracks effortlessly.",
       image: "/assets/songBrite.png",
-      technologies: ["ReactJs", "TypeScript", "Redux", "AntDesign", "CSS3", "API's", "JWT"],
+      technologies: ["NextJs", "TypeScript", "Redux", "AntDesign", "CSS3", "API's", "JWT"],
       github: "https://github.com/VadlaBhanuprasad",
       live: "https://songbriteweb.earbor.com/",
       featured: false,
